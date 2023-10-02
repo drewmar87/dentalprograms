@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<title>Radiograph Mounting Activity</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="radiographscript.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+    <!-- Instructions Section -->
+    <div class="instructions" id="instructions"></div>
+    <br />
+        <!-- Image Container -->
+        <div id="image-container">
+            <!-- Image Grid -->
+            <div class="image-grid">
+                <!-- Image Slots -->
+                <div class="image-slot" draggable="false"></div>
+                <div class="image-slot" draggable="false"></div>
+                <div class="image-slot-holder" draggable="false"></div>
+                <div class="image-slot" draggable="false"></div>
+                <div class="image-slot" draggable="false"></div>
+                <div class="image-slot" draggable="false"></div>
+                <div class="image-slot-holder" draggable="false"></div>
+                <div class="image-slot" draggable="false"></div>
+                <div class="image-slot" draggable="false"></div>
+                <div class="image-slot" draggable="false"></div>
+                <div class="image-slot" draggable="false"></div>
+                <div class="image-slot-holder" draggable="false"></div>
+                <div class="image-slot" draggable="false"></div>
+                <div class="image-slot" draggable="false"></div>
+                <div class="image-slot" draggable="false"></div>
+                <div class="image-slot-holder" draggable="false"></div>
+                <div class="image-slot" draggable="false"></div>
+                <div class="image-slot" draggable="false"></div>
+                <div class="image-slot" draggable="false"></div>
+                <div class="image-slot" draggable="false"></div>
+                <div class="image-slot-holder" draggable="false">
+                <!-- Reset Button -->
+                    <button class="button" id="resetButton">Reset</button>
+                </div>
+                <div class="image-slot-holder">
+                <!-- Left Rotation Placeholder -->
+                    <button id="rotate-left-button">
+                        <img src="images/rotate-left.png" style="-webkit-transform: scaleX(-1); transform: scaleX(-1);"/>
+                    </button>
+                </div>
+                <div class="image-slot-holder">
+                <!-- Evaluation Button -->
+                    <button class="button" id="evaluateButton">Evaluate</button>
+                </div>
+                <div class="image-slot-holder">
+                <!-- Right Rotation Placeholder -->
+                    <button id="rotate-right-button">
+                        <img src="images/rotate-left.png"/>
+                    </button>
+                </div>
+                <div class="image-slot-holder">
+                <!-- Next Button -->
+                    <button class="button" id="nextButton">Next</button>
+                </div>
+                <div class="image-slot"></div>
+                <div class="image-slot"></div>
+            </div>
+
+            <!-- Image Grid 2 -->
+            <p>
+                <div class="image-grid2">
+                    <!-- Image Slots with Images -->
+                    <div class="image-slot" id="image-holder1-original" draggable="false" style="display:block;">
+                        <img alt="Image 1" id="image1" src="images/patient5fmx/1.jpeg" draggable="true" />
+                    </div>
+                    <div class="image-slot" draggable="false">
+                        <img alt="Image 2" id="image2" src="images/patient5fmx/2.jpeg"/>
+                    </div>
+                    <div class="image-slot" draggable="false">
+                        <img alt="Image 3" id="image3" src="images/patient5fmx/3.jpeg"/>
+                    </div>
+                    <div class="image-slot" draggable="false">
+                        <img alt="Image 4" id="image4" src="images/patient5fmx/4.jpeg"/>
+                    </div>
+                    <div class="image-slot" draggable="false">
+                        <img alt="Image 5" id="image5" src="images/patient5fmx/5.jpeg"/>
+                    </div>
+                    <div class="image-slot" draggable="false">
+                        <img alt="Image 6" id="image6" src="images/patient5fmx/6.jpeg"/>
+                    </div>
+                    <div class="image-slot" draggable="false">
+                        <img alt="Image 7" id="image7" src="images/patient5fmx/7.jpeg"/>
+                    </div>
+                    <div class="image-slot" draggable="false">
+                        <img alt="Image 8" id="image8" src="images/patient5fmx/8.jpeg"/>
+                    </div>
+                    <div class="image-slot" draggable="false">
+                        <img alt="Image 9" id="image9" src="images/patient5fmx/9.jpeg"/>
+                    </div>
+                    <div class="image-slot" draggable="false">
+                        <img alt="Image 10" id="image10" src="images/patient5fmx/10.jpeg"/>
+                    </div>
+                    <div class="image-slot" draggable="false">
+                        <img alt="Image 11" id="image11" src="images/patient5fmx/11.jpeg"/>
+                    </div>
+                    <div class="image-slot" draggable="false">
+                        <img alt="Image 12" id="image12" src="images/patient5fmx/12.jpeg"/>
+                    </div>
+                    <div class="image-slot" draggable="false">
+                        <img alt="Image 13" id="image13" src="images/patient5fmx/13.jpeg"/>
+                    </div>
+                    <div class="image-slot" draggable="false">
+                        <img alt="Image 14" id="image14" src="images/patient5fmx/14.jpeg"/>
+                    </div>
+                    <div class="image-slot" draggable="false">
+                        <img alt="Image 15" id="image15" src="images/patient5fmx/15.jpeg"/>
+                    </div>
+                    <div class="image-slot" draggable="false">
+                        <img alt="Image 16" id="image16" src="images/patient5fmx/16.jpeg"/>
+                    </div>
+                    <div class="image-slot" draggable="false">
+                        <img alt="Image 17" id="image17" src="images/patient5fmx/17.jpeg"/>
+                    </div>
+                    <div class="image-slot" draggable="false">
+                        <img alt="Image 18" id="image18" src="images/patient5fmx/18.jpeg"/>
+                    </div>
+                </div>
+            </p>
+        </div>
+    </main>
+
+    <div id="confirmation-modal" class="modal">
+        <div class="modal-content">
+            <p>Are you sure? <br /><span class="warning-text">**This will erase your mounting progress.**</span></p>
+            <button id="confirm-yes">Yes</button>
+            <button id="confirm-no">No</button>
+        </div>
+    </div>
+
+    <div class="footer">
+    Radiograph Mounting Exercises - &copy; 2023 The Molar Manual. All Rights Reserved. | Designed by Andrew Margarit, RDH4
+    </div></div>
+</body>
+</html>
